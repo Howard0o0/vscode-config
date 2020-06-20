@@ -1,0 +1,69 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+left",
+        "command": "workbench.action.quickInputBack",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "-workbench.action.quickInputBack",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "alt+-",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+=",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+},
+{
+        "key": "shift+alt+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+},
+{
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+},
+{
+        "key": "shift+alt+f",
+        "command": "editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+},
+{
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+},
+{
+	"key": "ctrl+s",
+	"command": "workbench.action.files.saveAll"
+},
+{
+	"key": "ctrl+k ctrl+s",
+	"command": "workbench.action.files.save"
+},
+{
+	"key": "ctrl+s",
+	"command": "-workbench.action.files.save"
+},
+{
+	"key": "shift+alt+t",
+	"command": "leetcode.testSolution"
+},
+{
+	"key": "shift+alt+s",
+	"command": "leetcode.submitSolution"
+}
+]

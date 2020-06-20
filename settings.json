@@ -1,0 +1,85 @@
+{
+	"C_Cpp.default.cppStandard": "c++11",
+	"C_Cpp.default.cStandard": "c99",
+	"C_Cpp.updateChannel": "Insiders",
+	"C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle:Google,IndentWidth:8}",
+	"explorer.confirmDelete": false,
+	"http.proxySupport": "off",
+	"editor.tabCompletion": "on",
+	"explorer.confirmDragAndDrop": false,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"workbench.iconTheme": "vscode-icons",
+	"python.jediEnabled": false,
+	"editor.tabSize": 8,
+	"editor.detectIndentation": false,
+	"[c]": {
+		"editor.defaultFormatter": "xaver.clang-format"
+	},
+	"[cpp]": {
+		"editor.defaultFormatter": "xaver.clang-format"
+	},
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"f",
+				"d"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"vim.leader": "c",
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"<leader>",
+				"p",
+			],
+			"after": [
+				"\"",
+				"+",
+				"p"
+			]
+		}
+	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"<leader>",
+				"y",
+			],
+			"after": [
+				"\"",
+				"+",
+				"y"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"p",
+			],
+			"after": [
+				"\"",
+				"+",
+				"p"
+			]
+		},
+	],
+	"vim.useCtrlKeys": false,
+	"workbench.colorTheme": "Visual Studio Light",
+	"window.zoomLevel": 1,
+	"leetcode.endpoint": "leetcode-cn",
+	"leetcode.workspaceFolder": "/home/howard/.leetcode",
+	"leetcode.defaultLanguage": "cpp",
+	"leetcode.hint.commentDescription": false,
+	"leetcode.hint.configWebviewMarkdown": false,
+	"leetcode.hint.commandShortcut": false,
+	"editor.autoIndent": false,
+	"editor.insertSpaces": false,
+	"C_Cpp.default.intelliSenseMode": "gcc-x64",
+	"C_Cpp.formatting": "Disabled",
+	"terminal.integrated.rendererType": "dom"
+}
